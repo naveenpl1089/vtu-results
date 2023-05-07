@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vtu result</title>
+    <link rel="stylesheet" href="result.css" type="text/css">
+    
+</head>
+<body>
+    <div class="hi">
+        <div class="main-body">
+            <div class="top-head">
+                <img src="vtu-logo.png" class="logo">
+                <p class="text">VISVESVARAYA TECHNOLOGICAL UNIVERSITY, BELAGAVI</p>
+                
+
+            </div>
+            <div class="top-head2">
+                <p class="text2">VTU PROVISIONAL RESULT.</p>
+
+            </div>
+            <div class="form">
+                <div class="inner-form ">
+                    <p class="text3">October / November- 2022 EXAMINATION RESULTS.</p>
+
+                </div>
+                <form>
+                    <input type="text" id="enter" placeholder="ENTER USN NUMBER">
+                    <input type="password" id="cap" placeholder="password">
+                </form>
+                <button onclick="display()" id="but" >SUBMIT</button>
+                <button id="but2" ><a href="index.html">CANCEL</a></button>
+                
+
+            </div>
+            <div class="last-head">
+                <p class="text4">@2 2023 Designed & Developed by Project management Cell (PMC), VTU,Belagavi.Karnataka.India
+                </p>
+
+            </div>
+            
+
+        </div>
+    </div>
+    <script>
+        function display(){
+            var text=document.getElementById("enter").value
+            var input=document.getElementById("cap").value
+            if(text=="RI18IS055" && input=="RRIT123" ){
+                alert("LOGIN SUCCESFULLY")
+                window.location.assign("index2.html")
+                
+            }else if(text=="RI18CS044" && input=="RRIT123"){
+                alert("LOGIN SUCCESFULLY")
+                window.location.assign("abhi.html")
+            }else if(text=="RI18CS032" && input=="RRIT123"){
+                alert("LOGIN SUCCESFULLY")
+                window.location.assign("navi.html")
+            }else if(text=="RI18IS066" && input=="RRIT123"){
+                alert("LOGIN SUCCESFULLY")
+                window.location.assign("ansif.html")
+            }else if(text=="RI18CS030" && input=="RRIT123" ){
+                alert("LOGIN SUCCCESFULLY")
+                window.location.assign("musthafa.html")
+            }
+            else{
+                alert("INVALID USN NUMBER OR PASSWORD")
+            }
+        }
+    </script>
+   
+</body>
+</html>

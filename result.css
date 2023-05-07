@@ -1,0 +1,157 @@
+.main-body{
+    width: 1155px;
+    height: 570px;
+    background-color: whitesmoke;
+    margin-left: 49px;
+    box-shadow:0 2px 6px 0 gray,0 4px 12px 0 gray;
+    
+    
+    
+    
+    
+}
+.top-head{
+    width: 1155px;
+    height: 124px;
+    background-color: #505053;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+.top-head2{
+    width: 1128px;
+    height: 80px;
+    background-color: #FFCCB4;
+    margin-left: 13px;
+    margin-top: -12px;
+    
+    
+    
+}
+
+    
+
+    
+    
+    
+
+
+    
+    
+    
+
+.logo{
+    width: 120px;
+    padding-left: 80px ;
+    float: left;
+}
+.text{
+    color: aliceblue;
+    float: left;
+    padding-left: 90px;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.text2{
+    color: black;
+    font-size: 23px;
+    padding-left: 400px;
+    padding-top: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.form{
+    width: 600px;
+    height: 260px;
+    background-color: aqua;
+    float: left;
+    margin-left:265px;
+    margin-top:10px;
+    background-color: azure;
+    border-color: blue;
+    border-radius: 10px;
+    float: left;
+    box-shadow:0 2px 6px 0 gray,0 4px 12px 0 gray;
+
+    
+    
+
+}
+.inner-form{
+    width: 600px;
+    height: 70px;
+    background-color:#78D987 ;
+    margin-top: -16px;
+    
+    
+    
+    
+    
+    
+}
+.text3{
+    padding-left: 155px;
+    padding-top: 35px;
+    font-size: 18px;
+}
+.last-head{
+    width: 1155px;
+    height: 55px;
+    background-color: #505053;
+    margin-top: 300px;
+}
+.text4{
+    color: white;
+    padding-left: 240px;
+    padding-top: 25px;
+}
+#enter{
+    width: 550px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px 0 gray,0 4px 12px 0 gray;
+    
+}
+#cap{
+    width: 250px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 0 2px 6px 0 gray,0 4px 12px 0 gray;
+    background-color: white;
+    
+}
+.sub{
+    font-size: 30px;
+    font-style: normal;
+    padding-left: 25px;
+    padding-top: 30px;
+    
+    
+    
+}#but{
+    width: 250px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 30px;
+    padding-bottom: 10;
+    background-color: #78D987;
+    
+}
+#but2{
+    width: 250px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 30px;
+    background-color: #FFCCB4;
+}
+    
+    
